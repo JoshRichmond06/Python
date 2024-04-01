@@ -5,37 +5,37 @@ print(mydict)
 mydict2 = dict(name = "Mary", age = 27, city = "Boston")
 print(mydict2)
 
-# value = mydict["name"]
-# print(value)
+value = mydict["name"]
+print(value)
 
-# value = mydict["age"]
-# print(value)
+value = mydict["age"]
+print(value)
 
-# mydict["email"] = "max@xyz.com"
-# print(mydict)
+mydict["email"] = "max@xyz.com"
+print(mydict)
 
-# mydict["email"] = "coolmax@xyz.com"
-# print(mydict)
+mydict["email"] = "coolmax@xyz.com"
+print(mydict)
 
-# del mydict["name"]
-# print(mydict)
+del mydict["name"]
+print(mydict)
 
-# mydict.pop("age")
-# print(mydict)
+mydict.pop("age")
+print(mydict)
 
-# mydict.popitem()
-# print(mydict)
+mydict.popitem()
+print(mydict)
 
-# if "name" in mydict:
-#     print(mydict["lastname"])
+if "name" in mydict:
+    print(mydict["lastname"])
     
-# try:
-#     print(mydict["name"])
-# except:
-#     print("Error")
+try:
+    print(mydict["name"])
+except:
+    print("Error")
     
-# for key in mydict:
-#     print(key)
+for key in mydict:
+    print(key)
     
 for key, value in mydict.items():
     print(key, value) 
