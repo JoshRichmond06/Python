@@ -38,4 +38,3 @@ for x in myset:
 if 2 in myset:
     print("yes")
     
-odds = 
