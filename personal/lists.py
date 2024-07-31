@@ -75,3 +75,6 @@ b = [i * i for i in mylist]
 
 print(mylist)
 print(b)
+
+
+car_data[['Car_Name', 'Fuel_Type']].head()
